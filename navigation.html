@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>EJEMPLO AJAX</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style3.css" rel="stylesheet">
+
+    <!-- =======================================================
+  * Template Name: BizPage - v5.8.0
+  * Template URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+    <main id="main">
+        <br>
+        <a href="homepage2.html">
+            <button type="button" class="btn btn-primary btn-lg btn-block">REGRESAR</button>
+
+        </a>
+
+        <!-- ======= Breadcrumbs ======= -->
+        <section id="breadcrumbs" class="breadcrumbs">
+            <div class="container">
+                <h2>Ejemplo AJAX</h2>
+
+            </div>
+        </section>
+        <!-- End Breadcrumbs -->
+
+        <!-- ======= Blog Single Section ======= -->
+        <section id="blog" class="blog">
+            <div class="container" data-aos="fade-up">
+
+                <div class="row">
+
+                    <div class="col-lg-10 entries">
+
+                        <article class="entry entry-single">
+
+                            <div class="entry-img">
+                                <img src="assets/img/Navigation.JPG" alt="" class="img-fluid">
+                            </div>
+
+                            <h2 class="entry-title">
+                                AJAX
+                            </h2>
+
+                            <div class="entry-meta">
+                                <ul>
+                                    <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-single.html">Tarea Individual</a></li>
+                                    <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-single.html"><time
+                        datetime="2020-01-01">Enero, 2023</time></a></li>
+                                </ul>
+                            </div>
+
+                            <div class="entry-content">
+                                <blockquote>
+                                    <div align="left">
+                                        <p>
+                                            <ul>
+                                                <li>The XMLHttpRequest Object</li>
+                                                <br><h3>Change Content</h3>
+                                            </ul>
+
+                                        </p>
+                                    </div>
+                                </blockquote>
+                            </div>
+
+                        </article>
+                        <!-- End blog entry -->
+
+                        <article class="entry entry-single">
+                            <h2 class="entry-title">
+                                Ejemplo AJAX
+                            </h2>
+                            <div class="entry-content">
+
+                                <h4>Codigo Ejemplo</h4>
+
+                                <table class="table  table-bordered table-striped">
+                                    <thead>
+                                        <tr class="table-success">
+                                            <th scope=" col ">Ejemplo</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th class="text-primary bg-info "><strong>
+                        < !DOCTYPE html><br>
+                        < html><br>
+                        < body><br><br>
+
+                        < div id="demo"> The XMLHttpRequest Object><br>
+                        < button type="button" onclick="loadDoc()">Change Content /button><br>
+
+                        < /div><br><br>
+                        < script><br>
+                          function loadDoc() {<br>
+                          const xhttp = new XMLHttpRequest();<br>
+                          xhttp.onload = function() { <br>
+                          document.getElementById("demo").innerHTML = this.responseText; <br>
+                          }<br>
+                          xhttp.open("GET", "ajax_info.txt");<br>
+                          xhttp.send();<br>
+                          }<br>       
+                        < /script><br><br>
+
+                        < /body><br>
+                        < /html>
+                      </th>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <!-- /row -->
+                <br>
+                
+                <br>
+              </div>
+            </article><!-- End blog entry -->
+
+
+        </div>
+
+      </div>
+    </section><!-- End Blog Single Section -->
+
+  </main><!-- End #main -->
+
+ 
+
+ 
+            <script src="assets/vendor/purecounter/purecounter.js "></script>
+            <script src="assets/vendor/aos/aos.js "></script>
+            <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
+            <script src="assets/vendor/glightbox/js/glightbox.min.js "></script>
+            <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js "></script>
+            <script src="assets/vendor/swiper/swiper-bundle.min.js "></script>
+            <script src="assets/vendor/waypoints/noframework.waypoints.js "></script>
+            <script src="assets/vendor/php-email-form/validate.js "></script>
+
+            <!-- Template Main JS File -->
+            <script src="assets/js/main.js "></script>
+
+</body>
+
+</html>
